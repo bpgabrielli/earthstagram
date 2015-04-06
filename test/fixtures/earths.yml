@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  full_name: MyText
+  profile_picture: MyText
+  username: MyText
+  text: MyText
+  filter: MyText
+  image: MyText
+  thumbnail: MyText
+  link: MyText
+  location: MyText
+  type: MyText
+  ig_id: MyText
+  ig_created_time: MyText
+  latitude: MyText
+  longitude: MyText
+
+two:
+  full_name: MyText
+  profile_picture: MyText
+  username: MyText
+  text: MyText
+  filter: MyText
+  image: MyText
+  thumbnail: MyText
+  link: MyText
+  location: MyText
+  type: MyText
+  ig_id: MyText
+  ig_created_time: MyText
+  latitude: MyText
+  longitude: MyText

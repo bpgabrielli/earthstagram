@@ -1,0 +1,6 @@
+<canvas id="c"></canvas>
+<div id="earthstagrams">
+  <% @earthstagrams.each do |gram| %>
+    <%= image_tag(gram.image, :alt => gram.full_name, :class => "earthstagram") %>
+  <% end %>
+</div>
