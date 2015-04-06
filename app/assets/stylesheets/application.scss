@@ -1,18 +1,14 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import "compass";
 
-#earthstagrams{
-  position:relative;
-  width: 640px;
-  height: 640px;
-  margin-left: 50%;
-}
 #earthstagrams img.earthstagram{
   display:none;
   position:absolute;
-  top:25px;
+  top:0;
+  bottom:0;
   left:0;
+  right:0;
+  margin: auto;
   border-radius: 50%;
 }
 #earthstagrams img.active{
@@ -23,5 +19,6 @@ canvas, body, html {
   margin: 0px; 
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   position: absolute; 
-  min-height: 700px;
+  height: 100%;
+  width: 100%;
 }
