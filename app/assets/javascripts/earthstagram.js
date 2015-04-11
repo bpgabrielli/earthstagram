@@ -16,6 +16,10 @@ $(function() {
 });
 
 $(function() {
+  setInterval('location.reload()', 300000);
+});
+
+$(function() {
 var starsNumber = 100;
 //number of stars
 

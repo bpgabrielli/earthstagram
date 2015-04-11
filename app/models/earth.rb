@@ -1,7 +1,7 @@
 class Earth < ActiveRecord::Base
 
   def self.fresh
-    Earth.last(20).reverse
+    Earth.last(50).reverse
   end
 
 end
